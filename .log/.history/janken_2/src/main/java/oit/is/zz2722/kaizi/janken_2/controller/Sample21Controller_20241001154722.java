@@ -1,11 +1,11 @@
-package oit.is.zz2722.kaizi.janken_2.controller;
+package oit.is.z2722.janken_2.controller;
 
 import org.springframework.stereotype.Controller;
-//import org.springframework.ui.ModelMap;
+import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
-//import org.springframework.web.bind.annotation.PathVariable;
-//import org.springframework.web.bind.annotation.PostMapping;
-//import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 /**
  * Sample21Controller
@@ -23,4 +23,3 @@ public class Sample21Controller {
     return "sample21.html";
   }
 }
-

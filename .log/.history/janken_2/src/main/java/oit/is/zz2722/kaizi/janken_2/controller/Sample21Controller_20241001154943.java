@@ -23,4 +23,3 @@ public class Sample21Controller {
     return "sample21.html";
   }
 }
-
